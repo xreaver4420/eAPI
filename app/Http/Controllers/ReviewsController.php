@@ -14,7 +14,7 @@ class ReviewsController extends Controller
      */
     public function index()
     {
-        //
+        return Reviews::all();
     }
 
     /**
@@ -46,7 +46,7 @@ class ReviewsController extends Controller
      */
     public function show(Reviews $reviews)
     {
-        //
+
     }
 
     /**
